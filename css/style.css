@@ -808,7 +808,7 @@ img{
 
 
 /* ---------------------------MODAL_---------------------------------- */
-.backdrop {
+/* .backdrop {
     position: fixed;
     top: 0px;
     width: 100%;
@@ -818,9 +818,9 @@ img{
     transition-duration: 250ms;
     transition-timing-function: linear;
 
-}
+} */
 
-.modal{
+/* .modal{
     position: absolute;
 
     padding: 40px;
@@ -869,8 +869,6 @@ img{
     transition-duration: 250ms;
      transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-
-
 
 .forma-title {
     font-size: 20px;
@@ -941,8 +939,6 @@ img{
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-
-
 .comment{
     margin-top: 4px;
 
@@ -987,9 +983,9 @@ img{
     outline: #2196F3;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
+} */
 
-.checkbox{
+/* .checkbox{
     position: absolute;
     width: 1px;
     height: 1px;
@@ -1054,9 +1050,9 @@ img{
     width: 100%;
     height: 1px;
     background-color: #2196F3;
-}
+} */
 
-.submit-btn{
+/* .submit-btn{
     display: block;
     margin: 0 auto;
     margin-top: 30px;
@@ -1080,4 +1076,4 @@ img{
     .submit-btn:hover,
     .submit-btn:focus{
         background-color: #188ce8;
-    }
+    } */

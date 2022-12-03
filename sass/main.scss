@@ -1,6 +1,15 @@
-@import "./utils/variables";
+@import './utils/variables';
 
-@import "./header/mainheader";
-@import "./header/nav";
-@import "./header/telmail";
+@import './header/mainheader';
+@import './header/nav';
+@import './header/telmail';
 
+@import './main/title';
+@import './main/benefits';
+@import './main/team';
+@import './main/clients';
+
+@import './footer/basement';
+
+@import './portfolio/navigationbtn';
+@import './portfolio/content';

@@ -1,136 +1,132 @@
 .works {
-    background-color: var(--second-color);
-    padding-bottom: 94px;
+  background-color: var(--second-color);
+  padding-bottom: 94px;
 }
 
 .out-team {
-    padding-top: 94px;
-    padding-bottom: 94px;
-    background-color: var(--background-team);
+  padding-top: 94px;
+  padding-bottom: 94px;
+  background-color: var(--background-team);
 }
 
 .work {
-    margin-bottom: 50px;
-    font-size: 36px;
-    line-height: 1.16;
-    text-align: center;
-    letter-spacing: 0.03em;
+  margin-bottom: 50px;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
 }
 
 .work-photo {
-    list-style: var(--point);
-    display: flex;
-    gap: 30px;
+  list-style: var(--point);
+  display: flex;
+  gap: 30px;
 }
 
 .lessons {
-    position: relative;
+  position: relative;
 }
 
 .lessons-list {
-    position: absolute;
-    bottom: 0px;
+  position: absolute;
+  bottom: 0px;
 
-    width: 370px;
-    height: 70px;
-    background-color: rgba(47, 48, 58, 0.8);
+  width: 370px;
+  height: 70px;
+  background-color: rgba(47, 48, 58, 0.8);
 }
 
 .lessons-item {
-    font-size: 14px;
-    line-height: 16px;
-    text-align: center;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: #FFFFFF;
-    padding-top: 27px;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #ffffff;
+  padding-top: 27px;
 }
 
 .work-team {
-    list-style: var(--point);
-    display: flex;
-    gap: 30px;
+  list-style: var(--point);
+  display: flex;
+  gap: 30px;
 }
 
 .player {
-    background-color: #FFFFFF;
-    padding-bottom: 30px;
-    border-radius: 5px;
+  background-color: #ffffff;
+  padding-bottom: 30px;
+  border-radius: 5px;
 }
 
 .player-team {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.18;
-    text-align: center;
-    letter-spacing: 0.03em;
-    margin-top: 30px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+  letter-spacing: 0.03em;
+  margin-top: 30px;
 }
 
 .player-teams {
-    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12),
-        0px 1px 1px rgba(0, 0, 0, 0.14),
-        0px 2px 1px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
 }
 
 .job {
-    font-size: 16px;
-    line-height: 1.18;
-    text-align: center;
-    letter-spacing: 0.03em;
-    color: var(--color-item-tel-mail);
-    margin-top: 10px;
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--color-item-tel-mail);
+  margin-top: 10px;
 }
 
 .networks {
-    display: flex;
-    justify-content: center;
-    margin-top: 16px;
-    gap: 10px;
+  display: flex;
+  justify-content: center;
+  margin-top: 16px;
+  gap: 10px;
 }
 
 .networks-player {
-    list-style: var(--point);
+  list-style: var(--point);
 }
 
 .networks-player-element {
-    transition-property: background-color;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-property: background-color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 
-    width: 44px;
-    height: 44px;
-    border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  &:hover,
+  &:focus {
+    background-color: #2196f3;
+  }
 }
 
 .social-networks {
-    fill: #AFB1B8;
-}
+  fill: #afb1b8;
+  transition-property: fill;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 
-.social-networks {
+  .networks-player-element:hover & {
     transition-property: fill;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
+  }
 
-.networks-player-element:hover,
-.networks-player-element:focus {
-    background-color: #2196F3;
-}
-
-.networks-player-element:hover .social-networks {
-    transition-property: fill;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.networks-player-element:hover .social-networks {
+  .networks-player-element:hover & {
     fill: #ffffff;
-}
+  }
 
-.networks-player-element:focus .social-networks {
+  .networks-player-element:focus & {
     fill: #ffffff;
+  }
 }

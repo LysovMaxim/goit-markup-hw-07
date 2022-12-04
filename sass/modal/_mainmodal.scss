@@ -70,6 +70,17 @@
   left: 12px;
   top: 50%;
   transform: translateY(-50%);
+
+  .forma-contact:hover + & {
+    fill: #1976d2;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  .forma-contact:focus + & {
+    fill: #1976d2;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  }
 }
 
 .forma-contact {
@@ -79,25 +90,14 @@
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
   padding-left: 42px;
-}
 
-.forma-contact:hover,
-.forma-contact:focus {
-  border-color: #2196f3;
-  outline: #2196f3;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.forma-contact:hover + .input-icon {
-  fill: #1976d2;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-.forma-contact:focus + .input-icon {
-  fill: #1976d2;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  &:hover,
+  &:focus {
+    border-color: #2196f3;
+    outline: #2196f3;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  }
 }
 
 .forma-contact {
@@ -141,18 +141,19 @@
   transition-property: border;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-.comment::placeholder {
-  font-size: 12px;
-  line-height: 14px;
-  letter-spacing: 0.01em;
-  color: rgba(117, 117, 117, 0.5);
-}
 
-.comment:hover,
-.comment:focus {
-  border-color: #2196f3;
-  outline: #2196f3;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  &::placeholder {
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 0.01em;
+    color: rgba(117, 117, 117, 0.5);
+  }
+
+  &:hover,
+  &:focus {
+    border-color: #2196f3;
+    outline: #2196f3;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  }
 }

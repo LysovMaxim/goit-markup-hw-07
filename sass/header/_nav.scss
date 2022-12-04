@@ -1,28 +1,14 @@
-.nav-logo {
-  font-family: 'Raleway';
-  font-size: 26px;
-  line-height: 1.19;
-  letter-spacing: 0.03em;
-  color: #000000;
-  text-decoration: var(--link-decoration);
-  margin-right: 93px;
-}
-
-.nav-logo-title {
-  color: #2196f3;
-}
-
 .navigation-link {
   margin-right: auto;
 }
 
-.nav-link {
+.navigation-link__nav-link {
   gap: 50px;
   list-style: var(--point);
   display: flex;
 }
 
-.link {
+.navigation-link__link {
   padding: 32px 0px;
   position: relative;
 

@@ -38,6 +38,21 @@ body {
   color: #212121;
 }
 
+.nav-logo {
+  font-family: "Raleway";
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: #000000;
+  -webkit-text-decoration: var(--link-decoration);
+          text-decoration: var(--link-decoration);
+  margin-right: 93px;
+}
+
+.nav-logo__title {
+  color: #2196f3;
+}
+
 .header {
   background-color: var(--second-color);
   padding-top: 24px;
@@ -54,26 +69,11 @@ body {
           align-items: center;
 }
 
-.nav-logo {
-  font-family: "Raleway";
-  font-size: 26px;
-  line-height: 1.19;
-  letter-spacing: 0.03em;
-  color: #000000;
-  -webkit-text-decoration: var(--link-decoration);
-          text-decoration: var(--link-decoration);
-  margin-right: 93px;
-}
-
-.nav-logo-title {
-  color: #2196f3;
-}
-
 .navigation-link {
   margin-right: auto;
 }
 
-.nav-link {
+.navigation-link__nav-link {
   gap: 50px;
   list-style: var(--point);
   display: -webkit-box;
@@ -81,7 +81,7 @@ body {
   display: flex;
 }
 
-.link {
+.navigation-link__link {
   padding: 32px 0px;
   position: relative;
   -webkit-transition-property: color;
@@ -98,7 +98,7 @@ body {
   line-height: 1.14;
   letter-spacing: 0.02em;
 }
-.link:hover, .link:focus {
+.navigation-link__link:hover, .navigation-link__link:focus {
   color: #2196f3;
 }
 
@@ -139,7 +139,7 @@ body {
   display: flex;
 }
 
-.contact {
+.contacts__contact {
   -webkit-transition-property: color;
   transition-property: color;
   -webkit-transition-duration: 250ms;
@@ -160,17 +160,17 @@ body {
       -ms-flex-align: center;
           align-items: center;
 }
-.contact:hover, .contact:focus {
+.contacts__contact:hover, .contacts__contact:focus {
   color: #2196f3;
 }
-.contact:hover .envelop {
+.contacts__contact:hover .contacts__envelop {
   fill: #2196f3;
 }
-.contact:focus .envelop {
+.contacts__contact:focus .contacts__envelop {
   fill: #2196f3;
 }
 
-.contact .envelop {
+.contacts__contact .contacts__envelop {
   -webkit-transition-property: fill;
   transition-property: fill;
   -webkit-transition-duration: 250ms;
@@ -179,35 +179,35 @@ body {
           transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.contact .smartphone {
+.contacts__contact .contacts__smartphone {
   -webkit-transition-property: fill;
   transition-property: fill;
   -webkit-transition-duration: 250ms;
           transition-duration: 250ms;
   -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
           transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.contacts__envelop {
+  margin-right: 10px;
+  fill: #757575;
+}
+
+.contacts__smartphone {
+  fill: #757575;
+  margin-right: 10px;
+}
+
+.contact-tel:hover .contacts__smartphone {
+  fill: #2196f3;
+}
+
+.contact-tel:focus .contacts__smartphone {
+  fill: #2196f3;
 }
 
 .contact-mail {
   margin-right: 30px;
-}
-
-.envelop {
-  margin-right: 10px;
-  fill: #757575;
-}
-
-.smartphone {
-  fill: #757575;
-  margin-right: 10px;
-}
-
-.contact-tel:hover .smartphone {
-  fill: #2196f3;
-}
-
-.contact-tel:focus .smartphone {
-  fill: #2196f3;
 }
 
 .title {
@@ -223,12 +223,12 @@ body {
   padding-bottom: 200px;
 }
 
-.container-title {
+.title__container-title {
   padding: 0px;
   max-width: 696px;
 }
 
-.title-header {
+.title__header {
   margin-bottom: 35px;
   font-weight: 900;
   font-size: 44px;
@@ -239,7 +239,7 @@ body {
   color: #ffffff;
 }
 
-.btn {
+.title__btn {
   display: block;
   margin: 0 auto;
   padding-top: 10px;
@@ -265,7 +265,7 @@ body {
   -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
           transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.btn:hover, .btn:focus {
+.title__btn:hover, .title__btn:focus {
   background-color: #188ce8;
 }
 

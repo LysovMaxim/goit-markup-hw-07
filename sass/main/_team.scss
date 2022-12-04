@@ -1,49 +1,7 @@
-.works {
-  background-color: var(--second-color);
-  padding-bottom: 94px;
-}
-
 .out-team {
   padding-top: 94px;
   padding-bottom: 94px;
   background-color: var(--background-team);
-}
-
-.work {
-  margin-bottom: 50px;
-  font-size: 36px;
-  line-height: 1.16;
-  text-align: center;
-  letter-spacing: 0.03em;
-}
-
-.work-photo {
-  list-style: var(--point);
-  display: flex;
-  gap: 30px;
-}
-
-.lessons {
-  position: relative;
-}
-
-.lessons-list {
-  position: absolute;
-  bottom: 0px;
-
-  width: 370px;
-  height: 70px;
-  background-color: rgba(47, 48, 58, 0.8);
-}
-
-.lessons-item {
-  font-size: 14px;
-  line-height: 16px;
-  text-align: center;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: #ffffff;
-  padding-top: 27px;
 }
 
 .work-team {

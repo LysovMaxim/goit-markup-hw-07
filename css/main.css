@@ -49,7 +49,7 @@ body {
   margin-right: 93px;
 }
 
-.nav-logo__title {
+.nav-logo-title--color {
   color: #2196f3;
 }
 
@@ -339,12 +339,6 @@ body {
   padding-bottom: 94px;
 }
 
-.out-team {
-  padding-top: 94px;
-  padding-bottom: 94px;
-  background-color: var(--background-team);
-}
-
 .work {
   margin-bottom: 50px;
   font-size: 36px;
@@ -361,11 +355,11 @@ body {
   gap: 30px;
 }
 
-.lessons {
+.work-photo__lessons {
   position: relative;
 }
 
-.lessons-list {
+.work-photo__lessons-list {
   position: absolute;
   bottom: 0px;
   width: 370px;
@@ -373,7 +367,7 @@ body {
   background-color: rgba(47, 48, 58, 0.8);
 }
 
-.lessons-item {
+.work-photo__lessons-item {
   font-size: 14px;
   line-height: 16px;
   text-align: center;
@@ -381,6 +375,12 @@ body {
   text-transform: uppercase;
   color: #ffffff;
   padding-top: 27px;
+}
+
+.out-team {
+  padding-top: 94px;
+  padding-bottom: 94px;
+  background-color: var(--background-team);
 }
 
 .work-team {
@@ -565,6 +565,10 @@ body {
   line-height: 1.19;
   letter-spacing: 0.03em;
   color: #ffffff;
+}
+
+.nav-logo-title {
+  color: #2196f3;
 }
 
 .address {

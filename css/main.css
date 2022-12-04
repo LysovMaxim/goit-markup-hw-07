@@ -66,7 +66,7 @@ body {
 }
 
 .nav-logo-title {
-  color: #2196F3;
+  color: #2196f3;
 }
 
 .navigation-link {
@@ -98,10 +98,8 @@ body {
   line-height: 1.14;
   letter-spacing: 0.02em;
 }
-
-.link:hover,
-.link:focus {
-  color: #2196F3;
+.link:hover, .link:focus {
+  color: #2196f3;
 }
 
 .link-item::after {
@@ -112,12 +110,12 @@ body {
   display: block;
   width: 100%;
   height: 4px;
-  background-color: #2196F3;
+  background-color: #2196f3;
   border-radius: 2px;
 }
 
 .link-item {
-  color: #2196F3;
+  color: #2196f3;
 }
 
 .link-portfolio::after {
@@ -128,12 +126,12 @@ body {
   display: block;
   width: 100%;
   height: 4px;
-  background-color: #2196F3;
+  background-color: #2196f3;
   border-radius: 2px;
 }
 
 .link-portfolio {
-  color: #2196F3;
+  color: #2196f3;
 }
 
 .link-contact {
@@ -164,6 +162,15 @@ body {
       -ms-flex-align: center;
           align-items: center;
 }
+.contact:hover, .contact:focus {
+  color: #2196f3;
+}
+.contact:hover .envelop {
+  fill: #2196f3;
+}
+.contact:focus .envelop {
+  fill: #2196f3;
+}
 
 .contact .envelop {
   -webkit-transition-property: fill;
@@ -183,19 +190,6 @@ body {
           transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.contact:hover,
-.contact:focus {
-  color: #2196F3;
-}
-
-.contact:hover .envelop {
-  fill: #2196F3;
-}
-
-.contact:focus .envelop {
-  fill: #2196F3;
-}
-
 .contact-mail {
   margin-right: 30px;
 }
@@ -211,11 +205,11 @@ body {
 }
 
 .contact-tel:hover .smartphone {
-  fill: #2196F3;
+  fill: #2196f3;
 }
 
 .contact-tel:focus .smartphone {
-  fill: #2196F3;
+  fill: #2196f3;
 }
 
 .title {
@@ -553,21 +547,18 @@ body {
       -ms-flex-align: center;
           align-items: center;
 }
-
 .clients-link:hover {
   border: solid #2196f3;
+}
+.clients-link:hover .logo {
+  fill: #2196f3;
+}
+.clients-link:focus .logo {
+  fill: #2196f3;
 }
 
 .logo {
   fill: #afb1b8;
-}
-
-.clients-link:hover .logo {
-  fill: #2196f3;
-}
-
-.clients-link:focus .logo {
-  fill: #2196f3;
 }
 
 .basement {
@@ -677,9 +668,7 @@ body {
   border-radius: 50%;
   background-color: rgba(255, 255, 255, 0.1);
 }
-
-.footer-social:hover,
-.footer-social:focus {
+.footer-social:hover, .footer-social:focus {
   background-color: #2196f3;
 }
 
@@ -756,9 +745,7 @@ body {
   -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
           transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-
-.subscription-btn:hover,
-.subscription-btn:focus {
+.subscription-btn:hover, .subscription-btn:focus {
   background-color: #188ce8;
 }
 

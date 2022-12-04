@@ -84,11 +84,11 @@
   justify-content: center;
   border-radius: 50%;
   background-color: rgba(255, 255, 255, 0.1);
-}
 
-.footer-social:hover,
-.footer-social:focus {
-  background-color: #2196f3;
+  &:hover,
+  &:focus {
+    background-color: #2196f3;
+  }
 }
 
 .social-item {
@@ -149,11 +149,11 @@
   cursor: pointer;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
 
-.subscription-btn:hover,
-.subscription-btn:focus {
-  background-color: #188ce8;
+  &:hover,
+  &:focus {
+    background-color: #188ce8;
+  }
 }
 
 .icone-subscription {
